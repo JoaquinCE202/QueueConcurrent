@@ -10,4 +10,4 @@ find_package(Threads)
 include_directories($(CMAKE_CURRENT_SOURCE_DIR)/src)
 
 add_executable(Queue_Concurrent src/main.cpp)
-target_link_libraries(producer_consumer Threads::Threads)
+target_link_libraries(Queue_Concurrent Threads::Threads)
